@@ -212,7 +212,7 @@ a {
 
 a:visited,
 a:active {
-  color: #var(--global-color-alpha-light);
+  color: var(--global-color-alpha-light);
 }
 
 a:hover,
@@ -226,7 +226,7 @@ input {
 }
 
 input::placeholder {
-  color: var(--color-neutral-x-light);
+  color: var(--color-neutral-xxx-light);
 }
 
 /*------------------------------------*\
@@ -687,7 +687,7 @@ input::placeholder {
 }
 
 .c-button:hover {
-  background-color: #var(--global-color-alpha-light);
+  background-color: var(--global-color-alpha-light);
 }
 
 .c-button:focus {
